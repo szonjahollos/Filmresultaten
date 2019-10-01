@@ -1,0 +1,18 @@
+from statistics import mean
+from typing import List
+
+Top = ["Filmnaam", "Genre", "Verhaal", "Lengte", "Acteurs", "Effect", "Muziek", "Gem"]
+FilmNaam = ["Angel_has_fallen", "It_Chapter_Two", "Lion_King", "Zootopia", "Australia", "Once_upon_a_Time_in_the_West", "The_Green_Mile", "One_Flew_over_the_Cuckoo's_Nest", "Intouchables"]
+Genre = ["Actie", "Horror", "Animatie", "Animatie", "Drama", "Western", "Drama", "Fantasy", "Drama", "Drama"]
+Verhaal = [4, 9, 7, 8, 7, 0, 9, 0, 9, 8]
+Lengte =  [6, 4, 8, 8, 0, 0, 0, 0, 9, 0]
+Acteurs = [6, 9, 6, 7, 9, 0, 7, 6, 8, 0]
+Effect = [4, 4, 10, 7, 4, 0, 6, 8, 7, 0]
+Muziek =  [4, 4, 9, 9, 0, 0, 7, 0, 8, 0]
+Gem = [((4+6+6+4+4)/5), ((9+4+9+4+4)/5), ((7+8+6+10+9)/5), ((8+8+7+7+9)/5), ((7+0+9+4+0)/5), ((0+0+0+0+0)/5), ((9+0+7+6+7)/5), ((0+0+6+8+0)/5), ((9+9+8+7+8)/5), ((8+0+0+0+0)/5)]
+
+
+print()
+print("***************")
+print(FilmNaam[0], " ", Gem[0])
+print(FilmNaam[1], "   ", Gem[1])
